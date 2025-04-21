@@ -12,7 +12,7 @@ export default function App() {
      
       try {
         const sdk = await initializeWithConfig({
-          apiKey: "58438b68bb53458aaba566d17411b58e",
+          apiKey: "<PDF API KEY VALUE584...58e>",
           packageName: "sa-js-challenge",
           configOptions: {},
           generateJWT: () => new Promise((resolve) => resolve(jwt_token)),
